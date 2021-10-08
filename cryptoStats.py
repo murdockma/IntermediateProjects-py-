@@ -32,7 +32,7 @@ class Crypto():
                     print(f'''Market cap rank -- {stat['market_cap_rank']}       Developer score -- {stat['developer_score']}''') # market cap rank and dev score
                     print(stat['name']+"s official subreddit -- "+stat['links']['subreddit_url']) # subreddit url
 
-                except TypeError: # some data on certain cryptos have NoneTypes, cant concatenate a nonetype to str
+                except TypeError: # some data on certain cryptos have NoneTypes
                     pass
 
                 print(f'''\033[1m\n\nPast Subreddit Details: ({self.historic_date}\033[0m''')
