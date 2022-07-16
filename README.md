@@ -1,3 +1,3 @@
 # IntermediateMiniProjects-py-
 
-''' Intermediate Projects and Homework assignments. '''
+''' yr2 Homework assignments. '''
